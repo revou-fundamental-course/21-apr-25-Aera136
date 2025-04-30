@@ -19,7 +19,10 @@
         <!-- Introduction-->
         <section>
             <p>Selamat datang di Kalkulator Konversi Suhu! 🌡️🔥❄️</p>
-            <p>Di sini, kamu bisa dengan mudah mengubah suhu dari Celsius ke Fahrenheit, Kelvin ke Celsius, atau kombinasi lainnya — cukup masukkan angkanya, pilih satuannya, dan hasilnya langsung muncul. Nggak perlu repot hitung manual atau cari rumus lagi. Semuanya serba cepat, praktis, dan tentu saja, akurat.</p>
+            <p>Di sini, kamu bisa dengan mudah mengubah suhu dari Celsius ke Fahrenheit,
+                ataupun sebaliknya — cukup masukkan angkanya, pilih satuannya, dan hasilnya
+                langsung muncul. Nggak perlu repot hitung manual atau cari rumus lagi.
+                Semuanya serba cepat, praktis, dan tentu saja, akurat.</p>
             <p>💡 Yuk, mulai konversi sekarang dan lihat sendiri betapa mudahnya!</p>
         </section>
 
@@ -30,12 +33,12 @@
             </div>
 
             <div class="section-item">
-                <textarea id="konversi-input"></textarea>
+                <textarea id="konversi-input" required></textarea>
             </div>
 
             <!--Form Action-->
-            <div class="section-item">
-                <button class="bg-1">Konversi</button>
+            <div class="section-item" id="form-action">
+                <button type="button" onclick="validateForm()" class="bg-1">Konversi</button>
                 <button class="bg-2">Reset</button>
                 <button class="bg-3">Reverse</button>
             </div>
@@ -93,5 +96,7 @@
         <p>&copy; 2025 Aerodita. All rights reserved.</p>
      </footer>
     
+     <!--Javascript External-->
+     <script src="js\script.js"></script>
 </body>
 </html>

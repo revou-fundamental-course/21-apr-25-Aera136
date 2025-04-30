@@ -52,3 +52,16 @@ input[type=text] {
     font-style: italic;
     font-size: larger;
 }
+
+@media only screen and (max-width: 480px) {
+    #form-action{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    #form-action{
+        display: flex;
+        flex-direction: row;
+    }
